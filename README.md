@@ -1,4 +1,4 @@
 # Jackal
-Jackal board game on Unity 
+Jackal board game on Unity
 
 ## Let's make some noise
