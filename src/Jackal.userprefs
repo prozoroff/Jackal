@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CommonObjects\DefaultObjectsFactory.cs" Line="31" Column="4" />
+      <File FileName="Assets\Scripts\CommonObjects\IObjectsFactory.cs" Line="12" Column="8" />
+      <File FileName="Assets\Scripts\CommonObjects\Constants.cs" Line="10" Column="49" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="68" Column="33" />
+      <File FileName="Assets\Scripts\CommonObjects\IJackalGameObject.cs" Line="12" Column="22" />
+      <File FileName="Assets\Scripts\PlayingUnits\PlayingUnit.cs" Line="29" Column="26" />
+      <File FileName="Assets\Scripts\PlayingUnits\ShipUnit.cs" Line="6" Column="16" />
+      <File FileName="Assets\Scripts\PlayingUnits\FieldUnit.cs" Line="18" Column="19" />
+      <File FileName="Assets\Scripts\PlayingField\PlayingField.cs" Line="20" Column="4" />
+      <File FileName="Assets\Scripts\PlayingUnits\FieldCell.cs" Line="17" Column="3" />
+      <File FileName="Assets\Scripts\PlayerControl.cs" Line="47" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
