@@ -1,4 +1,7 @@
 # Jackal
 Jackal board game on Unity
 
-## Let's make some noise
+## Getting started
+1) Copy source files to a local folder
+2) Open /src folder in Unity
+
