@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: 880b9c871dc8dc048a3ee98af591c2e9
+timeCreated: 1433967392
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: jackal2_0
+    21300002: jackal2_1
+    21300004: jackal2_2
+    21300006: jackal2_3
+    21300008: jackal2_4
+    21300010: jackal2_5
+    21300012: jackal2_6
+    21300014: jackal2_7
+    21300016: jackal2_8
+    21300018: jackal2_9
+    21300020: jackal2_10
+    21300022: jackal2_11
+    21300024: jackal2_12
+    21300026: jackal2_13
+    21300028: jackal2_14
+    21300030: jackal2_15
+    21300032: jackal2_16
+    21300034: jackal2_17
+    21300036: jackal2_18
+    21300038: jackal2_19
+    21300040: jackal2_20
+    21300042: jackal2_21
+    21300044: jackal2_22
+    21300046: jackal2_23
+    21300048: jackal2_24
+    21300050: jackal2_25
+    21300052: jackal2_26
+    21300054: jackal2_27
+    21300056: jackal2_28
+    21300058: jackal2_29
+    21300060: jackal2_30
+    21300062: jackal2_31
+    21300064: jackal2_32
+    21300066: jackal2_33
+    21300068: jackal2_34
+    21300070: jackal2_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: jackal2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_2
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_3
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_4
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_5
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_6
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_7
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_8
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_11
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_12
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_13
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_14
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_15
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_16
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_17
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_20
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_21
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_22
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_23
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_24
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_25
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_26
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_29
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_30
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_31
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_32
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_33
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_34
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jackal2_35
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

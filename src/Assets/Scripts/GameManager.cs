@@ -19,9 +19,9 @@ public class GameManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		InitPlayingField ();
-		InitUnits ();
-		ClearUselessResources ();
+		//InitPlayingField ();
+		//InitUnits ();
+		//ClearUselessResources ();
 
 	}
 	
