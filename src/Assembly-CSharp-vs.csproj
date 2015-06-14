@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\PlayingField\Shirt.cs" />
      <Compile Include="Assets\Scripts\PlayingUnits\FieldCell.cs" />
      <Compile Include="Assets\Scripts\PlayingUnits\FieldUnit.cs" />
+     <Compile Include="Assets\Scripts\PlayingUnits\Pirate.cs" />
      <Compile Include="Assets\Scripts\PlayingUnits\PlayingUnit.cs" />
      <Compile Include="Assets\Scripts\PlayingUnits\ShipUnit.cs" />
  <Reference Include="UnityEngine.UI">

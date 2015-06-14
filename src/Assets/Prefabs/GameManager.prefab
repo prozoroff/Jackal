@@ -42,6 +42,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hideFieldTile: {fileID: 183934, guid: 327ed1ff4e6371742a0620c476228952, type: 2}
   waterFieldTile: {fileID: 195124, guid: 97349f62ad09950478d68d1d0b2a9c2d, type: 2}
+  aborigensTiles: {fileID: 181146, guid: b0d438421d2215549840822ba60e5ecb, type: 2}
+  arrow3: {fileID: 164776, guid: 8c9467bda84f64d49999077651672cbd, type: 2}
+  arrowDiagonal1Tiles: {fileID: 177820, guid: 9c9e493a6637d00489e47fe430adb87b, type: 2}
+  arrowDiagonal2Tiles: {fileID: 151462, guid: 83d09ec51a4cb71499ccc825fb73de06, type: 2}
+  arrowDiagonal4Tiles: {fileID: 171484, guid: 20b203e980603974e96976cb4582754d, type: 2}
+  arrowStraight1Tiles: {fileID: 138102, guid: 49b693e8a50f21043a4c5641013fedb9, type: 2}
+  arrowStraight2Tiles: {fileID: 122576, guid: 385449da5b936114189e1563a121b338, type: 2}
+  arrowStraight4Tiles: {fileID: 139450, guid: 2dc386aeef132864588fc526476b2eca, type: 2}
+  balloonTiles: {fileID: 193334, guid: 7d855ed8ff9d322459fba745479bc0c0, type: 2}
+  cannonTiles: {fileID: 113116, guid: 24c686e485e303a49bafd9cfc2915918, type: 2}
+  crocodileTiles: {fileID: 132838, guid: 295a57c28bbd005418a97da2af9dc51f, type: 2}
+  forest1Tiles: {fileID: 195718, guid: b39da099d5da2cf4b92cf3a523e82bc8, type: 2}
+  forest2Tiles: {fileID: 147634, guid: ef0d002faa2f46845aa4acfb396d2033, type: 2}
+  forest3Tiles: {fileID: 127096, guid: 25b593a8b46714a458148430d26d210b, type: 2}
+  forest4Tiles: {fileID: 193504, guid: b3564c424b0702247ba8127ee4a4ae1b, type: 2}
+  fortressTiles: {fileID: 128060, guid: 5112a1eb114b2204694e402df13b229c, type: 2}
+  horseTiles: {fileID: 109642, guid: cda55fba5cac296408035ea37b7cb1e6, type: 2}
+  iceTiles: {fileID: 126788, guid: 37a56f7365272bf46bdee5deeb4a3e01, type: 2}
+  manEaterTiles: {fileID: 197142, guid: 2b87be919ef9f6f4e99315bc36399853, type: 2}
+  planeTiles: {fileID: 113968, guid: 21a716cbe1d3e14468fac2f170822c0c, type: 2}
+  rumTiles: {fileID: 173214, guid: ec84efbd85ff09e44a8b9256e6eba017, type: 2}
+  skip2Tiles: {fileID: 133688, guid: 22079f0758e98f749b7f5cf6f9d11889, type: 2}
+  skip3Tiles: {fileID: 161774, guid: a34f1a9253452d3449c393387e0cc08d, type: 2}
+  skip4Tiles: {fileID: 118148, guid: 9b1d312f033a0b443b81260913afdb68, type: 2}
+  skip5Tiles: {fileID: 191486, guid: 688ffec62cb590845b06624773553632, type: 2}
+  trapTiles: {fileID: 146966, guid: 4b2563b99af2bc94cb5aa063f63d16c0, type: 2}
+  treasure1Tiles: {fileID: 115666, guid: 13bb45dc32880c74a85d445344c7d5d3, type: 2}
+  treasure2Tiles: {fileID: 141670, guid: 5338904cf54a0804e8d0cc25c7593a19, type: 2}
+  treasure3Tiles: {fileID: 128500, guid: 6578cc2f603898c44b1e334bcdae939d, type: 2}
+  treasure4Tiles: {fileID: 112200, guid: e1fbbd63910b40d4cbbd03ba397bd405, type: 2}
+  treasure5Tiles: {fileID: 176660, guid: 7049072c2e226f4408eb9519f4ca94c5, type: 2}
 --- !u!114 &11498050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -56,6 +87,8 @@ MonoBehaviour:
   GameState: 0
   FieldSize: 8
   PlayersNumber: 2
+  turnDelay: .100000001
+  players1Turn: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

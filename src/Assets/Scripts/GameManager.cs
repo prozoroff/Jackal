@@ -8,12 +8,15 @@ public class GameManager : MonoBehaviour {
 	public int GameState = 0;
 	public int FieldSize = 8;
 	public int PlayersNumber = 2;
+	public float turnDelay = 0.5f;
+	[HideInInspector] public bool players1Turn = true;
 
 	private BoardManager _playingField;
 	PlayingUnit[] Units;
 	GameObject SelectedUnit;
 
 	public static GameManager instance = null;
+	private bool timeout;
 
 	private IObjectsFactory _objectsFactory = new DefaultObjectsFactory();
 
@@ -46,6 +49,28 @@ public class GameManager : MonoBehaviour {
 		//InitUnits ();
 		//ClearUselessResources ();
 
+	}
+
+	//Update is called every frame.
+	void Update()
+	{
+		//Check that playersTurn or enemiesMoving or doingSetup are not currently true.
+		if(players1Turn || timeout)
+			
+			//If any of these are true, return and do not start MoveEnemies.
+			return;
+		
+		//Start moving enemies.
+		StartCoroutine (ResetTurn ());
+	}
+
+	//Coroutine to move enemies in sequence.
+	IEnumerator ResetTurn()
+	{
+		timeout = true;
+		yield return new WaitForSeconds(turnDelay);
+		players1Turn = true;
+		timeout = false;
 	}
 
 
