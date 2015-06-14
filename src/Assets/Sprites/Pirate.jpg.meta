@@ -1,48 +1,47 @@
 fileFormatVersion: 2
-guid: 880b9c871dc8dc048a3ee98af591c2e9
-timeCreated: 1434280892
+guid: a307fc4b0b5220446a926af8deacfda4
+timeCreated: 1434050236
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: balloon
-    21300002: aborigines
-    21300004: arrow1
-    21300006: arrow2
-    21300008: arrow3
-    21300010: arrow4
-    21300012: arrow5
-    21300014: arrow6
-    21300016: arrow7
-    21300018: cannon
-    21300020: crocodile
-    21300022: forest1
-    21300024: forest2
-    21300026: forest3
-    21300028: forest4
-    21300030: fortress
-    21300032: horse
-    21300034: ice
-    21300036: man-eater
-    21300038: plane
-    21300040: rum
-    21300042: ship black
-    21300044: ship green
-    21300046: ship purple
-    21300048: ship red
-    21300050: shirt
-    21300052: skip2
-    21300054: skip3
-    21300056: skip4
-    21300058: skip5
-    21300060: trap
-    21300062: treasure1
-    21300064: treasure2
-    21300066: treasure3
-    21300068: treasure4
-    21300070: treasure5
-    21300072: arrow
-    21300074: ship red
-    21300076: water
+    21300000: Pirate_idle_1
+    21300002: Pirate_idle_2
+    21300004: Pirate_idle_3
+    21300006: Pirate_idle_4
+    21300008: Pirate_run_1
+    21300010: Pirate_run_2
+    21300012: Pirate_run_3
+    21300014: Pirate_run_4
+    21300016: Pirate_run_5
+    21300018: Pirate_11
+    21300020: Pirate_12
+    21300022: Pirate_13
+    21300024: Pirate_15
+    21300026: Pirate_19
+    21300028: Pirate_20
+    21300030: Pirate_21
+    21300032: Pirate_22
+    21300034: Pirate_23
+    21300036: Pirate_24
+    21300038: Pirate_25
+    21300040: Pirate_26
+    21300042: Pirate_27
+    21300044: Pirate_30
+    21300046: Pirate_31
+    21300048: Pirate_32
+    21300050: Pirate_35
+    21300052: Pirate_36
+    21300054: Pirate_37
+    21300056: Pirate_38
+    21300058: Pirate_40
+    21300060: Pirate_41
+    21300062: Pirate_42
+    21300064: Pirate_45
+    21300066: Pirate_46
+    21300068: Pirate_47
+    21300070: Pirate_48
+    21300072: Pirate_49
+    21300074: Pirate_50
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -82,379 +81,389 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 188
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: balloon
+    - name: Pirate_idle_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 762
-        width: 188
-        height: 188
+        x: 25
+        y: 1030
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: aborigines
+    - name: Pirate_idle_2
       rect:
         serializedVersion: 2
-        x: 194
-        y: 762
-        width: 188
-        height: 188
+        x: 123
+        y: 1030
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow
+    - name: Pirate_idle_3
       rect:
         serializedVersion: 2
-        x: 382
-        y: 762
-        width: 188
-        height: 188
+        x: 222
+        y: 1030
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow2
+    - name: Pirate_idle_4
       rect:
         serializedVersion: 2
-        x: 572
-        y: 762
-        width: 188
-        height: 188
+        x: 321
+        y: 1030
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow3
+    - name: Pirate_run_1
       rect:
         serializedVersion: 2
-        x: 762
-        y: 762
-        width: 188
-        height: 188
+        x: 25
+        y: 921
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow4
+    - name: Pirate_run_2
       rect:
         serializedVersion: 2
-        x: 952
-        y: 762
-        width: 188
-        height: 188
+        x: 120
+        y: 921
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow5
+    - name: Pirate_run_3
       rect:
         serializedVersion: 2
-        x: 1142
-        y: 762
-        width: 188
-        height: 188
+        x: 215
+        y: 920
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow6
+    - name: Pirate_run_4
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 762
-        width: 188
-        height: 188
+        x: 318
+        y: 920
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow7
+    - name: Pirate_run_5
       rect:
         serializedVersion: 2
-        x: 1522
-        y: 762
-        width: 188
-        height: 188
+        x: 420
+        y: 918
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cannon
+    - name: Pirate_11
       rect:
         serializedVersion: 2
-        x: 2
-        y: 572
-        width: 188
-        height: 188
+        x: 121
+        y: 781
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: crocodile
+    - name: Pirate_12
       rect:
         serializedVersion: 2
-        x: 194
-        y: 572
-        width: 188
-        height: 188
+        x: 216
+        y: 818
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: forest1
+    - name: Pirate_13
       rect:
         serializedVersion: 2
-        x: 382
-        y: 572
-        width: 188
-        height: 188
+        x: 312
+        y: 804
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: forest2
+    - name: Pirate_15
       rect:
         serializedVersion: 2
-        x: 572
-        y: 572
-        width: 188
-        height: 188
+        x: 19
+        y: 721
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: forest3
+    - name: Pirate_19
       rect:
         serializedVersion: 2
-        x: 764
-        y: 572
-        width: 188
-        height: 188
+        x: 408
+        y: 721
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: forest4
+    - name: Pirate_20
       rect:
         serializedVersion: 2
-        x: 952
-        y: 572
-        width: 188
-        height: 188
+        x: 20
+        y: 617
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fortress
+    - name: Pirate_21
       rect:
         serializedVersion: 2
-        x: 1142
-        y: 572
-        width: 188
-        height: 188
+        x: 120
+        y: 617
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: horse
+    - name: Pirate_22
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 572
-        width: 188
-        height: 188
+        x: 226
+        y: 618
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ice
+    - name: Pirate_23
       rect:
         serializedVersion: 2
-        x: 1522
-        y: 568
-        width: 188
-        height: 188
+        x: 344
+        y: 613
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: man-eater
+    - name: Pirate_24
       rect:
         serializedVersion: 2
-        x: 2
-        y: 382
-        width: 188
-        height: 188
+        x: 464
+        y: 611
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: plane
+    - name: Pirate_25
       rect:
         serializedVersion: 2
-        x: 192
-        y: 382
-        width: 188
-        height: 188
+        x: 24
+        y: 511
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rum
+    - name: Pirate_26
       rect:
         serializedVersion: 2
-        x: 382
-        y: 382
-        width: 188
-        height: 188
+        x: 129
+        y: 515
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ship black
+    - name: Pirate_27
       rect:
         serializedVersion: 2
-        x: 572
-        y: 382
-        width: 188
-        height: 188
+        x: 251
+        y: 513
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ship green
+    - name: Pirate_30
       rect:
         serializedVersion: 2
-        x: 762
-        y: 382
-        width: 188
-        height: 188
+        x: 23
+        y: 409
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ship purple
+    - name: Pirate_31
       rect:
         serializedVersion: 2
-        x: 954
-        y: 382
-        width: 188
-        height: 188
+        x: 130
+        y: 407
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ship red
+    - name: Pirate_32
       rect:
         serializedVersion: 2
-        x: 1142
-        y: 382
-        width: 188
-        height: 188
+        x: 230
+        y: 404
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: shirt
+    - name: Pirate_35
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 382
-        width: 188
-        height: 188
+        x: 24
+        y: 305
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skip2
+    - name: Pirate_36
       rect:
         serializedVersion: 2
-        x: 1522
-        y: 382
-        width: 188
-        height: 188
+        x: 124
+        y: 304
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skip3
+    - name: Pirate_37
       rect:
         serializedVersion: 2
-        x: 2
-        y: 192
-        width: 188
-        height: 188
+        x: 222
+        y: 304
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skip4
+    - name: Pirate_38
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 188
-        height: 188
+        x: 323
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skip5
+    - name: Pirate_40
       rect:
         serializedVersion: 2
-        x: 382
-        y: 192
-        width: 188
-        height: 188
+        x: 29
+        y: 201
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: trap
+    - name: Pirate_41
       rect:
         serializedVersion: 2
-        x: 572
-        y: 192
-        width: 188
-        height: 188
+        x: 125
+        y: 201
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure1
+    - name: Pirate_42
       rect:
         serializedVersion: 2
-        x: 762
-        y: 192
-        width: 188
-        height: 188
+        x: 228
+        y: 198
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure2
+    - name: Pirate_45
       rect:
         serializedVersion: 2
-        x: 952
-        y: 192
-        width: 188
-        height: 188
+        x: 32
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure3
+    - name: Pirate_46
       rect:
         serializedVersion: 2
-        x: 1142
-        y: 192
-        width: 188
-        height: 188
+        x: 124
+        y: 93
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure4
+    - name: Pirate_47
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 185
-        width: 188
-        height: 195
+        x: 229
+        y: 97
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure5
+    - name: Pirate_48
       rect:
         serializedVersion: 2
-        x: 1522
-        y: 192
-        width: 188
-        height: 188
+        x: 326
+        y: 94
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: water
+    - name: Pirate_49
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 188
-        height: 188
+        x: 429
+        y: 91
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pirate_50
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 12
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

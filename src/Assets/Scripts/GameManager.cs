@@ -9,30 +9,49 @@ public class GameManager : MonoBehaviour {
 	public int FieldSize = 8;
 	public int PlayersNumber = 2;
 
-	public PlayingField PlayingField;
+	private BoardManager _playingField;
 	PlayingUnit[] Units;
 	GameObject SelectedUnit;
 
+	public static GameManager instance = null;
+
 	private IObjectsFactory _objectsFactory = new DefaultObjectsFactory();
 
+	void Awake()
+	{
+		//Check if instance already exists
+		if (instance == null)
+			//if not, set instance to this
+			instance = this;
+		
+		//If instance already exists and it's not this:
+		else if (instance != this)
+			//Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
+			Destroy(gameObject); 
+
+		_playingField = GetComponent<BoardManager>();
+		InitGame();
+	}
+
+	void InitGame()
+	{
+		_playingField.SetupScene( BoardManager.FieldType.ftCLASSIC );
+	}
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 
 		//InitPlayingField ();
 		//InitUnits ();
 		//ClearUselessResources ();
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 
 	private void InitPlayingField(){
-		PlayingField = new PlayingField(FieldSize);
-		PlayingField.Init (_objectsFactory);
+		_playingField = new BoardManager(FieldSize);
+		_playingField.Init (_objectsFactory);
 	}
 
 	private void InitUnits(){
