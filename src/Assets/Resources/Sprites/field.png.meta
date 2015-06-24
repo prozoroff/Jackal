@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: fb7b69f6b327b0f479fd1f364dd4dc71
+timeCreated: 1435098303
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Balloon
+    21300002: Aborigens
+    21300004: arrow1
+    21300006: ArrowDiagonal2
+    21300008: ArrowStraight2
+    21300010: ArrowDiagonal4
+    21300012: ArrowStraight1
+    21300014: Arrow3
+    21300016: ArrowStraight4
+    21300018: Cannon
+    21300020: Crocodile
+    21300022: Forest1
+    21300024: Forest2
+    21300026: Forest3
+    21300028: Forest4
+    21300030: Fortress
+    21300032: Horse
+    21300034: Ice
+    21300036: ManEater
+    21300038: Plane
+    21300040: Rum
+    21300042: ShipBlack
+    21300044: ship green
+    21300046: ship purple
+    21300048: ship red
+    21300050: Shirt
+    21300052: Skip2
+    21300054: Skip3
+    21300056: Skip4
+    21300058: Skip5
+    21300060: Trap
+    21300062: Treasure1
+    21300064: Treasure2
+    21300066: Treasure3
+    21300068: Treasure4
+    21300070: Treasure5
+    21300072: ArrowDiagonal1
+    21300074: ship red
+    21300076: Water
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 188
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Balloon
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 762
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Aborigens
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 762
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArrowDiagonal1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 762
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArrowDiagonal2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 762
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArrowStraight2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 762
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArrowDiagonal4
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 760
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArrowStraight1
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 762
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arrow3
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 762
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArrowStraight4
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 762
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cannon
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Crocodile
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forest1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forest2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forest3
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forest4
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fortress
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Horse
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 572
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ice
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 568
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ManEater
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Plane
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Rum
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ShipBlack
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ship green
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ship purple
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ship red
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shirt
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skip2
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 382
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skip3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skip4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skip5
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trap
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Treasure1
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Treasure2
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 192
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Treasure3
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 190
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Treasure4
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 185
+        width: 188
+        height: 195
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Treasure5
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 194
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Water
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

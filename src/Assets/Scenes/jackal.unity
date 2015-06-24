@@ -87,48 +87,6 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &455618168
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 418860, guid: 28c2e6acb1dc81b4192000cbdb54feb2, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 418860, guid: 28c2e6acb1dc81b4192000cbdb54feb2, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 418860, guid: 28c2e6acb1dc81b4192000cbdb54feb2, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 418860, guid: 28c2e6acb1dc81b4192000cbdb54feb2, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 418860, guid: 28c2e6acb1dc81b4192000cbdb54feb2, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 418860, guid: 28c2e6acb1dc81b4192000cbdb54feb2, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 418860, guid: 28c2e6acb1dc81b4192000cbdb54feb2, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 418860, guid: 28c2e6acb1dc81b4192000cbdb54feb2, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 28c2e6acb1dc81b4192000cbdb54feb2, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1928796908
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8bbd44ba1aef384ea8f3c5379129efd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 122024, guid: b325409949f40a2468505d048696c5ec, type: 2}
+  gameManager: {fileID: 11498050, guid: b325409949f40a2468505d048696c5ec, type: 2}
 --- !u!81 &1928796910
 AudioListener:
   m_ObjectHideFlags: 0

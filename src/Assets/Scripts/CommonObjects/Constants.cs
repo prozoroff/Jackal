@@ -7,7 +7,7 @@ namespace Jackal.Domain
 	/// </summary>
 	public static class Constants
 	{
-		public enum ObjectTypes { FieldCell, FieldUnit, Ship };
+		public enum ObjectType { FieldUnit, MovableUnit, WaterUnit };
 	}
 }
 
