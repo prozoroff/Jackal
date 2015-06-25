@@ -1,48 +1,49 @@
 fileFormatVersion: 2
 guid: 880b9c871dc8dc048a3ee98af591c2e9
-timeCreated: 1434280892
+timeCreated: 1435266782
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: balloon
-    21300002: aborigines
+    21300000: Balloon
+    21300002: Aborigens
     21300004: arrow1
-    21300006: arrow2
-    21300008: arrow3
-    21300010: arrow4
-    21300012: arrow5
-    21300014: arrow6
-    21300016: arrow7
-    21300018: cannon
-    21300020: crocodile
-    21300022: forest1
-    21300024: forest2
-    21300026: forest3
-    21300028: forest4
-    21300030: fortress
-    21300032: horse
-    21300034: ice
-    21300036: man-eater
-    21300038: plane
-    21300040: rum
-    21300042: ship black
+    21300006: ArrowDiagonal2
+    21300008: ArrowStraight2
+    21300010: ArrowDiagonal4
+    21300012: ArrowStraight1
+    21300014: Arrow3
+    21300016: ArrowStraight4
+    21300018: Cannon
+    21300020: Crocodile
+    21300022: Forest1
+    21300024: Forest2
+    21300026: Forest3
+    21300028: Forest4
+    21300030: Fortress
+    21300032: Horse
+    21300034: Ice
+    21300036: ManEater
+    21300038: Plane
+    21300040: Rum
+    21300042: ShipBlack
     21300044: ship green
     21300046: ship purple
     21300048: ship red
-    21300050: shirt
-    21300052: skip2
-    21300054: skip3
-    21300056: skip4
-    21300058: skip5
-    21300060: trap
-    21300062: treasure1
-    21300064: treasure2
-    21300066: treasure3
-    21300068: treasure4
-    21300070: treasure5
-    21300072: arrow
+    21300050: Shirt
+    21300052: Skip2
+    21300054: Skip3
+    21300056: Skip4
+    21300058: Skip5
+    21300060: Trap
+    21300062: Treasure1
+    21300064: Treasure2
+    21300066: Treasure3
+    21300068: Treasure4
+    21300070: Treasure5
+    21300072: ArrowDiagonal1
     21300074: ship red
-    21300076: water
+    21300076: Water
+    21300078: Pirate
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -88,7 +89,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: balloon
+    - name: Balloon
       rect:
         serializedVersion: 2
         x: 2
@@ -98,7 +99,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: aborigines
+    - name: Aborigens
       rect:
         serializedVersion: 2
         x: 194
@@ -108,7 +109,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow
+    - name: ArrowDiagonal1
       rect:
         serializedVersion: 2
         x: 382
@@ -118,7 +119,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow2
+    - name: ArrowDiagonal2
       rect:
         serializedVersion: 2
         x: 572
@@ -128,7 +129,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow3
+    - name: ArrowStraight2
       rect:
         serializedVersion: 2
         x: 762
@@ -138,17 +139,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow4
+    - name: ArrowDiagonal4
       rect:
         serializedVersion: 2
-        x: 952
-        y: 762
+        x: 954
+        y: 760
         width: 188
         height: 188
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow5
+    - name: ArrowStraight1
       rect:
         serializedVersion: 2
         x: 1142
@@ -158,7 +159,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow6
+    - name: Arrow3
       rect:
         serializedVersion: 2
         x: 1332
@@ -168,7 +169,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arrow7
+    - name: ArrowStraight4
       rect:
         serializedVersion: 2
         x: 1522
@@ -178,7 +179,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cannon
+    - name: Cannon
       rect:
         serializedVersion: 2
         x: 2
@@ -188,7 +189,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: crocodile
+    - name: Crocodile
       rect:
         serializedVersion: 2
         x: 194
@@ -198,7 +199,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: forest1
+    - name: Forest1
       rect:
         serializedVersion: 2
         x: 382
@@ -208,7 +209,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: forest2
+    - name: Forest2
       rect:
         serializedVersion: 2
         x: 572
@@ -218,7 +219,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: forest3
+    - name: Forest3
       rect:
         serializedVersion: 2
         x: 764
@@ -228,7 +229,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: forest4
+    - name: Forest4
       rect:
         serializedVersion: 2
         x: 952
@@ -238,7 +239,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: fortress
+    - name: Fortress
       rect:
         serializedVersion: 2
         x: 1142
@@ -248,7 +249,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: horse
+    - name: Horse
       rect:
         serializedVersion: 2
         x: 1332
@@ -258,7 +259,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ice
+    - name: Ice
       rect:
         serializedVersion: 2
         x: 1522
@@ -268,7 +269,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: man-eater
+    - name: ManEater
       rect:
         serializedVersion: 2
         x: 2
@@ -278,7 +279,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: plane
+    - name: Plane
       rect:
         serializedVersion: 2
         x: 192
@@ -288,7 +289,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rum
+    - name: Rum
       rect:
         serializedVersion: 2
         x: 382
@@ -298,10 +299,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ship black
+    - name: ShipBlack
       rect:
         serializedVersion: 2
-        x: 572
+        x: 570
         y: 382
         width: 188
         height: 188
@@ -338,7 +339,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: shirt
+    - name: Shirt
       rect:
         serializedVersion: 2
         x: 1332
@@ -348,7 +349,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skip2
+    - name: Skip2
       rect:
         serializedVersion: 2
         x: 1522
@@ -358,7 +359,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skip3
+    - name: Skip3
       rect:
         serializedVersion: 2
         x: 2
@@ -368,7 +369,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skip4
+    - name: Skip4
       rect:
         serializedVersion: 2
         x: 192
@@ -378,7 +379,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: skip5
+    - name: Skip5
       rect:
         serializedVersion: 2
         x: 382
@@ -388,7 +389,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: trap
+    - name: Trap
       rect:
         serializedVersion: 2
         x: 572
@@ -398,7 +399,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure1
+    - name: Treasure1
       rect:
         serializedVersion: 2
         x: 762
@@ -408,7 +409,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure2
+    - name: Treasure2
       rect:
         serializedVersion: 2
         x: 952
@@ -418,17 +419,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure3
+    - name: Treasure3
       rect:
         serializedVersion: 2
-        x: 1142
-        y: 192
+        x: 1144
+        y: 190
         width: 188
         height: 188
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure4
+    - name: Treasure4
       rect:
         serializedVersion: 2
         x: 1332
@@ -438,21 +439,31 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: treasure5
+    - name: Treasure5
       rect:
         serializedVersion: 2
-        x: 1522
-        y: 192
+        x: 1520
+        y: 194
         width: 188
         height: 188
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: water
+    - name: Water
       rect:
         serializedVersion: 2
         x: 2
         y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pirate
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
         width: 188
         height: 188
       alignment: 0

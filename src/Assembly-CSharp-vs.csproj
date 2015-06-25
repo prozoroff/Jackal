@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\CommonObjects\DefaultUnitFactory.cs" />
      <Compile Include="Assets\Scripts\CommonObjects\IUnitFactory.cs" />
      <Compile Include="Assets\Scripts\CommonObjects\JackalGameObject.cs" />
+     <Compile Include="Assets\Scripts\Enumerator.cs" />
      <Compile Include="Assets\Scripts\Extentions.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Loader.cs" />

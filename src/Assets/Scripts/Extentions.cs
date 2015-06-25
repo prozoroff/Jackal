@@ -17,6 +17,11 @@ namespace Jackal.Domain
 				list[n] = value;  
 			}  
 		}
+
+		public static bool Is(this Unit unit, string type)  
+		{  
+			return unit.Name.Contains(type);
+		}
 	}
 }
 

@@ -20,10 +20,6 @@ namespace Jackal.Domain
 		private int _columns;
 		private int _rows;
 		private IUnitFactory _unitFactory = new DefaultUnitFactory ();
-
-		private Rigidbody2D rb2D;
-		public float moveTime = 0.1f;
-		private float inverseMoveTime;
 		
 		public BoardManager ():this(10)
 		{
@@ -36,7 +32,6 @@ namespace Jackal.Domain
 			FieldArray = new List<Unit> ();
 			MovableUnits = new List<Unit> ();
 			InitAvailableUnitTypes ();
-			inverseMoveTime = 1 / moveTime;
 		}
 
 		//Process action on unit after click(tap)
@@ -47,12 +42,12 @@ namespace Jackal.Domain
 			if(_targetUnit == null)
 				_targetUnit = MovableUnits.LastOrDefault (x => x.Name == objectToSelect.name);
 
-			//move
-			if (_targetUnit != null && !(_targetUnit is MovableUnit)) {
-				if (_selectedUnit != null) {
-						Move();
-					}
-				}
+			//process user action
+			if (_targetUnit != null && _selectedUnit != null) {
+				_selectedUnit.Select();
+				if(ProcessAction (_selectedUnit, _targetUnit))
+					_selectedUnit = null;
+			}
 			else if (_targetUnit != null && _targetUnit is MovableUnit) {
 				//or unselect
 				if(_selectedUnit == _targetUnit){
@@ -66,43 +61,28 @@ namespace Jackal.Domain
 				}
 			}
 		}
-
-		//Move unit
-		protected bool Move (){
-			StartCoroutine (SmoothMovement (_targetUnit, _selectedUnit));
-			return true;
-		}
-
-		protected IEnumerator SmoothMovement (Unit targetUnit, Unit unit)
+	
+		bool ProcessAction (MovableUnit selectedUnit, Unit targetUnit)
 		{
-			//If closed than flip
-			if (targetUnit is FieldUnit &&  !(targetUnit as FieldUnit).IsOpen) {
-				int step = 5;
-				int rotationsNumber = 180 / step;
-			
-				for (int i = 0; i < rotationsNumber; i++) {
-				
-					if (i == rotationsNumber / 2) {
-						(targetUnit as FieldUnit).IsOpen = !(targetUnit as FieldUnit).IsOpen;
-					}
-				
-					(targetUnit as FieldUnit).Rotate (0, step, 0);
-					yield return null;
-				}
+			if (selectedUnit.Is ("Ship") && targetUnit is WaterUnit)
+				return Move (selectedUnit, targetUnit);
+			else if (selectedUnit.Is ("Ship") && targetUnit is FieldUnit) {
+				var pirate = CreateMovableUnit("Pirate", _selectedUnit.X, _selectedUnit.Y);
+				_selectedUnit.Unselect();
+				_selectedUnit = null;
+				return Move (pirate, targetUnit);
+			}
+			else if (selectedUnit.Is ("Pirate") && targetUnit is FieldUnit) {
+				return Move (selectedUnit, targetUnit);
 			}
 
-			float sqrRemainingDistance = (unit.Position - targetUnit.Position).sqrMagnitude;
-			
-			while(sqrRemainingDistance > float.Epsilon)
-			{
-				Vector3 newPostion = Vector3.MoveTowards(unit.Position, targetUnit.Position, inverseMoveTime * Time.deltaTime);
-				unit.Position = newPostion;
-				sqrRemainingDistance = (unit.Position - targetUnit.Position).sqrMagnitude;
-				yield return null;
-			}
-
-			_selectedUnit.Unselect ();
-			_selectedUnit = null;
+			return false;
+		}
+		
+		//Move unit
+		protected bool Move (MovableUnit selectedUnit, Unit targetUnit){
+			StartCoroutine (selectedUnit.Action (targetUnit));
+			return true;
 		}
 
 		public void SetupScene ()
@@ -133,10 +113,16 @@ namespace Jackal.Domain
 
 		void SetupMovableUnits ()
 		{
-			var ship = _unitFactory.Get (Constants.ObjectType.MovableUnit, "ShipBlack");
-			ship.Position = new Vector2 (4, 0);
-			ship.Name = "ShipBlack";
-			MovableUnits.Add (ship);
+			CreateMovableUnit ("ShipBlack", 4, 0);
+			CreateMovableUnit ("ShipBlack", 0, 4);
+		}
+
+		MovableUnit CreateMovableUnit (string type, int x, int y)
+		{
+			var u = _unitFactory.Get (Constants.ObjectType.MovableUnit, type);
+			u.Position = new Vector2 (x, y);
+			MovableUnits.Add (u);
+			return u as MovableUnit;
 		}
 
 		List<string> GetFieldUnitTypes ()

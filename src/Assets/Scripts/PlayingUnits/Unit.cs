@@ -50,6 +50,18 @@ namespace Jackal.Domain
 			}
 		}
 
+		public int X{
+			get {
+				return (int)Position.x;
+			}
+		}
+
+		public int Y{
+			get {
+				return (int)Position.y;
+			}
+		}
+
 		public Quaternion Rotation{
 			get {
 				return _gameObject.transform.rotation;

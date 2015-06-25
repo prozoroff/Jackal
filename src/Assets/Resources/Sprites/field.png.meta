@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: fb7b69f6b327b0f479fd1f364dd4dc71
-timeCreated: 1435098303
+timeCreated: 1435266782
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -43,6 +43,7 @@ TextureImporter:
     21300072: ArrowDiagonal1
     21300074: ship red
     21300076: Water
+    21300078: Pirate
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -453,6 +454,16 @@ TextureImporter:
         serializedVersion: 2
         x: 2
         y: 2
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pirate
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
         width: 188
         height: 188
       alignment: 0

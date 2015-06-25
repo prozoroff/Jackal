@@ -15,7 +15,7 @@ namespace Jackal.Domain
 			_isOpen = false;
 			Height = 0;
 			this.GameObject = GameObject.Instantiate (Resources.Load ("Prefabs/FieldCells/" + _type)) as GameObject; 
-			this.GameObject.name = _type + Guid.NewGuid ().ToString ();
+			this.GameObject.name = _type + " " + Guid.NewGuid ().ToString ();
 			UpdateSprite ();
 		}
 
